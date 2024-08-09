@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+// Function to perform subtraction
+int subtract(int a, int b) {
+    return a - b;
+}
+int main() {
+    // Test the function
+    int num1 = 15;
+    int num2 = 7;
+    int result = subtract(num1, num2);
+cout << "The result of " << num1 << " - " << num2 << " is " << result << endl;
+    return 0;
+}
